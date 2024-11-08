@@ -1,0 +1,10 @@
+[package]
+name = "term-path-tracing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simple-term-renderer = { path = "../simple-term-renderer" }
+rand = "0.8.5"
